@@ -566,13 +566,13 @@ window.onload = function init() {
     var person = prompt("Please Provide url or relative / absolute path to obj file. Cancel for default.", "Harry Potter");
     if (person == null || person == "") {
       alert("Default Scene Applied")
-      person = "https://raw.githubusercontent.com/Rayyan98/HypObtTxtLoader/main/windmill.obj"
+      person = "https://raw.githubusercontent.com/Rayyan98/HypObjLoader/main/windmill.obj"
     }
     
     var person2 = prompt("Please Provide url or relative / absolute path to texture file. Cancel for default.", "Harry Potter");
     if (person2 == null || person2 == "") {
       alert("Default Texture Applied")
-      person2 = "https://raw.githubusercontent.com/Rayyan98/HypObtTxtLoader/main/unamed2.jpg"
+      person2 = "https://raw.githubusercontent.com/Rayyan98/HypObjLoader/main/unamed%202.jpg"
     }
 
 
